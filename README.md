@@ -1,32 +1,50 @@
-# React + TypeScript + Vite
+# WebGIS Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A Persian RTL WebGIS application built with React, TypeScript, Vite, and Leaflet.
 
-Currently, two official plugins are available:
+## معرفی پروژه
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+این پروژه یک برنامه WebGIS است که برای نمایش اطلاعات جغرافیایی شهرستان و مزارع کشاورزی روی نقشه تعاملی طراحی شده است.
 
-## React Compiler
+This project is a WebGIS application for displaying geographic information about a county and agricultural farms on an interactive map.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies | تکنولوژی‌ها
 
-## Expanding the Oxlint configuration
+- React
+- TypeScript
+- Vite
+- Leaflet
+- React Leaflet
+- GeoJSON
+- CSS
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Features | قابلیت‌ها
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- Persian RTL interface
+- رابط کاربری راست‌چین فارسی
+- Interactive OpenStreetMap map
+- نمایش نقشه تعاملی OpenStreetMap
+- Displaying the county boundary
+- نمایش محدوده شهرستان به صورت Polygon
+- Displaying agricultural farms as polygons
+- نمایش مزارع کشاورزی روی نقشه
+- Loading geographic data from a GeoJSON file
+- دریافت اطلاعات جغرافیایی از فایل GeoJSON
+- Separating county and farm features
+- جداسازی عوارض شهرستان و مزارع
+- Displaying farm information
+- نمایش اطلاعات مربوط به مزارع
+- Showing mouse latitude and longitude
+- نمایش مختصات جغرافیایی ماوس
+- Using React state and hooks
+- استفاده از State و Hookهای ری‌اکت مانند `useState` و `useEffect`
+
+## Data | داده‌ها
+
+The geographic data is stored in the following file:
+
+اطلاعات جغرافیایی در فایل زیر ذخیره شده است:
+
+```text
+public/data/mockData.geojson
 ```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
