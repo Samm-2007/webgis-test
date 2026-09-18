@@ -1,131 +1,570 @@
 {
-  "type":"FeatureCollocation",
-  "featurse":[{
-
-
-    "type":"Feature",
-    "properties":{
-      "Featuretype":"county",
-      "name":"Dezful"
-    },
-    "geometry":{
-      "type":"polygon",
-      "coordination":[
-        [48.4184624,
-        32.4307895],
-        [48.3324764,
-        32.3751075],
-        [48.3855732,
-        32.3380158],
-        [48.4542503,
-        32.3453258],
-        [48.4835779,
-        32.3913223],
-        [48.4184624,
-        32.4307895]
-      ]
-    }
-   }
-
-
-
-   ,{
-    "type":"Feature",
-    "properties":{
-      "Featuretype":"farm",
-      "id":1,
-      "name":"alireza",
-      "owner":"mohamad",
-      "area":25,
-      "licenseStatus":"licensed",
-      "cultivationType":"wheate",
-      "lastUpdate":"2026/06/21"
-    },
-    "geometry":{
-      "type":"polygon",
-      "coordination":[
-        [
-          48.4248761,
-          32.4091013
-        ],
-        [
-          48.4251341,
-          32.4078728
-        ],
-        [
-          48.4313159,
-          32.4088138
-        ],
-        [
-          48.4294922,
-          32.4106474
-        ],
-        [
-          48.4248761,
-          32.4091013
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "county",
+        "name": "Dezful"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.3816303,
+              32.4601359
+            ],
+            [
+              48.3331476,
+              32.3999571
+            ],
+            [
+              48.2818131,
+              32.2776705
+            ],
+            [
+              48.3666577,
+              32.2010822
+            ],
+            [
+              48.6204787,
+              32.3993551
+            ],
+            [
+              48.3816303,
+              32.4601359
+            ]
+          ]
         ]
-      ]
-    }
-  }
-
-
-  ,{
-    "type":"Feature",
-    "properties":{
-      "Featuretype":"farm",
-      "id":1,
-      "name":"javad",
-      "owner":"mohamad",
-      "area":25,
-      "licenseStatus":"licensed",
-      "cultivationType":"Soybean",
-      "lastUpdate":"2026/06/21"
+      }
     },
-    "geometry":{
-      "type":"polygon",
-      "coordination":[
-        [
-          48.4388081,
-          32.4084631
-        ],
-        [
-          48.4339289,
-          32.4043928
-        ],
-        [
-          48.4297468,
-          32.4081934
-        ],
-        [
-          48.4323606,
-          32.4085857
-        ],
-        [
-          48.4342774,
-          32.4092722
-        ],
-        [
-          48.4351487,
-          32.4099587
-        ],
-        [
-          48.4359038,
-          32.4104736
-        ],
-        [
-          48.4364847,
-          32.4106698
-        ],
-        [
-          48.4370074,
-          32.4105962
-        ],
-        [
-          48.4388081,
-          32.4084631
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 1,
+        "name": "alireza",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "wheate",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [48.4248761, 32.4091013],
+            [48.4251341, 32.4078728],
+            [48.4313159, 32.4088138],
+            [48.4294922, 32.4106474],
+            [48.4248761, 32.4091013]
+          ]
         ]
-      ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 2,
+        "name": "javad",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "Soybean",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [48.4388081, 32.4084631],
+            [48.4339289, 32.4043928],
+            [48.4297468, 32.4081934],
+            [48.4323606, 32.4085857],
+            [48.4342774, 32.4092722],
+            [48.4351487, 32.4099587],
+            [48.4359038, 32.4104736],
+            [48.4364847, 32.4106698],
+            [48.4370074, 32.4105962],
+            [48.4388081, 32.4084631]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 3,
+        "name": "javad",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "Soybean",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4298717,
+              32.3986004
+            ],
+            [
+              48.4316231,
+              32.3957958
+            ],
+            [
+              48.4348238,
+              32.3969687
+            ],
+            [
+              48.4330725,
+              32.3997732
+            ],
+            [
+              48.4298717,
+              32.3986004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 4,
+        "name": "javad",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "Soybean",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4358505,
+              32.400793
+            ],
+            [
+              48.4385682,
+              32.4027306
+            ],
+            [
+              48.4365752,
+              32.4047192
+            ],
+            [
+              48.4374207,
+              32.405382
+            ],
+            [
+              48.4365148,
+              32.4064018
+            ],
+            [
+              48.433918,
+              32.4044133
+            ],
+            [
+              48.4358505,
+              32.400793
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 5,
+        "name": "javad",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "Soybean",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.424376,
+              32.4039034
+            ],
+            [
+              48.4223226,
+              32.4020678
+            ],
+            [
+              48.4243156,
+              32.3999262
+            ],
+            [
+              48.4267917,
+              32.4014049
+            ],
+            [
+              48.424376,
+              32.4039034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 6,
+        "name": "javad",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "Soybean",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4358505,
+              32.400793
+            ],
+            [
+              48.4369376,
+              32.3981925
+            ],
+            [
+              48.4436411,
+              32.3994673
+            ],
+            [
+              48.4443658,
+              32.3999262
+            ],
+            [
+              48.4441846,
+              32.40064
+            ],
+            [
+              48.4430976,
+              32.4024247
+            ],
+            [
+              48.441467,
+              32.4047192
+            ],
+            [
+              48.4358505,
+              32.400793
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 7,
+        "name": "javad",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "Soybean",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4386889,
+              32.4082883
+            ],
+            [
+              48.4414066,
+              32.4047702
+            ],
+            [
+              48.4386286,
+              32.4027816
+            ],
+            [
+              48.4368168,
+              32.4046682
+            ],
+            [
+              48.4376623,
+              32.4053311
+            ],
+            [
+              48.4367564,
+              32.4064528
+            ],
+            [
+              48.4386889,
+              32.4082883
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 8,
+        "name": "javad",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "Soybean",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4367564,
+              32.3980905
+            ],
+            [
+              48.4349446,
+              32.3971216
+            ],
+            [
+              48.4318042,
+              32.4025267
+            ],
+            [
+              48.4337972,
+              32.4042093
+            ],
+            [
+              48.4357901,
+              32.400742
+            ],
+            [
+              48.4367564,
+              32.3980905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 9,
+        "name": "javad",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "Soybean",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4241948,
+              32.3999262
+            ],
+            [
+              48.4264897,
+              32.3972236
+            ],
+            [
+              48.4329517,
+              32.3999262
+            ],
+            [
+              48.4315627,
+              32.4025267
+            ],
+            [
+              48.4317438,
+              32.4030366
+            ],
+            [
+              48.4313815,
+              32.4031385
+            ],
+            [
+              48.4269728,
+              32.4014049
+            ],
+            [
+              48.4241948,
+              32.3999262
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 10,
+        "name": "javad",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "Soybean",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4296294,
+              32.4081882
+            ],
+            [
+              48.4337964,
+              32.4046191
+            ],
+            [
+              48.4386882,
+              32.4083921
+            ],
+            [
+              48.4372388,
+              32.4104315
+            ],
+            [
+              48.4365141,
+              32.4105845
+            ],
+            [
+              48.4360913,
+              32.4105845
+            ],
+            [
+              48.4345815,
+              32.4094628
+            ],
+            [
+              48.4336153,
+              32.408902
+            ],
+            [
+              48.4318639,
+              32.4084941
+            ],
+            [
+              48.4296294,
+              32.4081882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "farm",
+        "id": 11,
+        "name": "javad",
+        "owner": "mohamad",
+        "area": 25,
+        "licenseStatus": "licensed",
+        "cultivationType": "Soybean",
+        "lastUpdate": "2026/06/21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.4294482,
+              32.4081882
+            ],
+            [
+              48.4336756,
+              32.40467
+            ],
+            [
+              48.4321054,
+              32.4032934
+            ],
+            [
+              48.4311996,
+              32.4033443
+            ],
+            [
+              48.4270929,
+              32.4015597
+            ],
+            [
+              48.4247376,
+              32.4036503
+            ],
+            [
+              48.4254019,
+              32.4036503
+            ],
+            [
+              48.4262474,
+              32.4038542
+            ],
+            [
+              48.4267909,
+              32.4039562
+            ],
+            [
+              48.4272741,
+              32.4042621
+            ],
+            [
+              48.4276968,
+              32.4045171
+            ],
+            [
+              48.4279988,
+              32.404823
+            ],
+            [
+              48.4283611,
+              32.4052309
+            ],
+            [
+              48.4286027,
+              32.4059957
+            ],
+            [
+              48.4287839,
+              32.4070665
+            ],
+            [
+              48.4287839,
+              32.4078822
+            ],
+            [
+              48.4294482,
+              32.4081882
+            ]
+          ]
+        ]
+      }
     }
-  }
   ]
 }

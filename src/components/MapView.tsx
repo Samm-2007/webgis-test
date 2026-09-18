@@ -1,23 +1,47 @@
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import { MapContainer, GeoJSON, TileLayer } from "react-leaflet";
+import type { FarmFeature, CountyProperty } from "../types/geo";
+import MouseCoordination from "./MouseCoordinates";
 
-export const Map = () => {
+interface MapViewProps {
+  farms: FarmFeature[];
+  county?: CountyProperty;
+}
+
+export const Map = ({ farms, county }: MapViewProps) => {
   return (
     <MapContainer
-      center={[35.6892, 51.389]}
+      center={[32.381111, 48.405833]}
       zoom={10}
       scrollWheelZoom={false}
-      style={{ width: "800px", height: "600px" }}
+      style={{ width: "1080px", height: "600px" }}
       className="map-container"
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={[35.6892, 51.389]}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
+      {county && (
+        <GeoJSON
+          data={county}
+          style={{
+            color: "blue",
+            fillColor: "lightgreen",
+            fillOpacity: 0,
+          }}
+        />
+      )}
+      {farms.map((farm) => (
+        <GeoJSON
+          key={farm.properties.id}
+          data={farm}
+          style={{
+            color: "green",
+            fillColor: "lightgreen",
+            fillOpacity: 0.5,
+          }}
+        />
+      ))}
+      <MouseCoordination />
     </MapContainer>
   );
 };

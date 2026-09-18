@@ -1,8 +1,9 @@
 import type { Feature, Polygon } from "geojson";
 
 export type LicenseStatus = "licensed" | "unlicensed";
-export interface farmProperties {
-  featuretype: "farm" | "county";
+
+export interface FarmProperties {
+  featureType: "farm";
   id: number;
   name: string;
   owner: string;
@@ -11,9 +12,12 @@ export interface farmProperties {
   cultivationType: string;
   lastUpdate: string;
 }
-export interface countyProperty {
-  Featuretype: "county";
+
+export interface CountyProperties {
+  featureType: "county";
   name: string;
 }
-export type FarmFeature = Feature<Polygon, farmProperties>;
-export type CountyProperty = Feature<Polygon, countyProperty>;
+
+export type FarmFeature = Feature<Polygon, FarmProperties>;
+
+export type CountyProperty = Feature<Polygon, CountyProperties>;
